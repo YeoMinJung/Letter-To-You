@@ -1,0 +1,91 @@
+	@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
+
+	html{scroll-behavior: smooth;}
+	section, p, h2, footer,{font-family: 'Noto Sans KR', sans-serif; font-weight: 300; margin: 0;}
+
+	h1{font-family: 'Courgette', cursive; font-size: 3em;}
+	h2{font-weight: 600; font-size: 2em; margin-bottom: 20px;}
+	
+
+	.h2-font{font-family: 'Courgette', cursive;}
+	.h2-font2{font-family: 'Roboto Slab', serif;}
+
+	.h2-down{font-size: 4.5em; writing-mode: vertical-lr; color: white; padding: 30px;}
+	.p-flower{font-size: 2.7em; padding: 30px; color: white; margin-left: 780px; margin-top: 250px; font-weight: 700;}
+	.p-flower2{font-size: 2.7em; padding: 30px; color: white; margin-left: 570px; margin-top: 250px; font-weight: 700;}
+
+
+	.p-font{font-family: 'Noto Serif KR', serif; font-size: 1.3em; text-align: center; line-height: 1.6em; margin-bottom: 20px; margin-top: 20px; font-weight: 400;}
+	.p-font2{font-family: 'Roboto Slab', serif; font-weight: 600;}
+	.p-strong{font-weight: 600;text-align: center; font-size: 1.5em; line-height: 1.3em;}
+	.small-font{font-size: 0.9em; margin-bottom: 50px;}
+
+	.text-clolor{color: gray;}
+
+	.margin-left{margin-left: 60px;}
+	.margin-left2{margin-left: 120px;}
+	.margin-right{margin-left: 290px;}
+	.margin-right2{margin-left: 400px;}
+
+	.img-0{margin: 0px;}
+	.img-top{margin-top: 60px;}
+	.margin-top{margin-top: -70px;}
+
+	.h-400{height: 400px;}
+
+	body,h1,h2,p,section,ul,li{margin: 0;}
+	section{width: 1080px; margin: auto; margin-bottom: 150px;}
+	h1{text-align: center; margin-bottom: 10px;}
+	img{display: block; width: 100%; margin-top: 20px; margin-bottom: 30px;}
+	p{margin-top: 20px; margin-bottom: 20px; line-height: 1.5em; font-size: 1.2em; font-weight: 400;}
+
+	nav{background-color: white; padding: 0px 258px; height: 50px; margin-bottom: 130px;position: sticky; top: 0; z-index: 30;}
+	nav ul{display: block;list-style-type: none; width: 1000px; height: 50px;}
+	nav li{display: block; float: left; width: 100px; height: 50px; line-height: 50px; text-align: center; font-size: 1.1em; padding-left: 75px; padding-right: 50px;}
+	nav a{display: block; color: gray; text-decoration: none;}
+	nav a:hover{color: black; background-color: white; border-radius: 4px; transition: 0.5s; text-decoration: underline;}
+
+	.bg-1{background: url('./img/letter.jpg');
+	width: 100%; background-attachment: fixed; background-position: 0px 72px;}
+	.bg-2{background: url('./img/img4.jpg');
+	background-size: 80%; height: 600px; background-attachment: fixed; background-position: 120px 0px;}
+	.bg-3{background: url('./img/img10.jpg');
+	background-size: 80%; height: 600px; background-attachment: fixed; background-position: 140px 0px;}
+
+	.bg-del{width: 1080px; height: 1060px;background-color: #F2EFFB; padding-top: 50px;}
+	.bg-dal{word-break: 1080px; height: 1060px; background-color: #FBEFEF; padding-top: 50px;}
+
+
+	.text-middle{text-align: center;}
+	.text-right{text-align: right;}
+
+	.section-margin{margin-top: -150px;margin-bottom: 150px;}
+
+	.row{width: 1080px; display: flex; padding: 0px, 5px; text-align: center;}
+	.row2{display: flex; width: 100%; height: 230px;text-align: center;}
+	.row3{z-index: 20; position: relative; margin: auto;}
+
+	.col-3{width: 530px; margin: 5px;}
+	.col-6{width: 1080px; margin: 5px;}
+
+	#abs1{width: 550px; height: 450px; position: absolute; left: 0;}
+	#abs2{width: 510px; height: 300px; position: absolute; right: 0;}
+	#abs3{width: 550px; height: 300px; position: absolute; top: 470px; left: 0;}
+	#abs4{width: 510px; height: 450px; position: absolute; top: 320px; right: 0;}
+
+	#abs5{width: 500px; height: 350px; position: absolute; left: 0;}
+	#abs6{width: 560px; height: 350px; position: absolute; right: 0;}
+	#abs7{width: 560px; height: 350px; position: absolute; left: 0;top: 365px;}
+	#abs8{width: 500px; height: 350px; position: absolute;top: 365px; right: 0;}
+
+	footer{height: 350px;}
+	footer div{padding-left: 50px;}
+	footer p{font-size: 0.8em; margin-left: -50px;}
+	footer h2{font-size: 1.0em;}
+	.smaller-font{font-size: 0.6em;}
+	.big-font{font-size: 2.5em; margin-left: -50px;}
+
+	.flexbox{display: flex;}
